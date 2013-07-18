@@ -1,7 +1,7 @@
 # Simple script to search your Xcode project for unused images
-I know there are tools for this out there, but some aren't reliable and some are $30, albeit with more options. But if you want something simple, just for deleting unused assets, this should do the trick.
+I know there are tools for this out there, but some aren't reliable and some are $30, albeit with more options. But if you want something simple, just for searching, deleting and seeing at a glance what @2x/@1x assets are missing, this should do the trick.
 
-It takes an argument, so you should run it like `ruby unused.rb /path_to_your_project_folder`. If you don't provide one as argument, you will be prompted for one after launching.
+It takes an argument, so you should run it like `ruby unused.rb /path_to_your_project_folder`. If you don't provide an argument, you will be prompted for one after launching.
 
 It searches `m`, `mm`, `cpp`, `c`, `h` and `html` files by default. Easily changeable.
 
@@ -13,6 +13,8 @@ It provides easily changeable exclusions, defaults being `vendor`, `default`, `i
 * Excluded images will not be searched for.  
 
 You will be displayed a list of unused file names, then a list of to-be deleted files, with full paths. You can choose to stop here, delete them all, or delete them one by one.
+
+Since it shows a list of file names, you can also see at glance what images are missing @2x or @1x sizes.
 
 I tested it and re-tested it and there's a one-by-one mode, please don't go deleting everything if you're not 100% sure of what you're doing.
 
