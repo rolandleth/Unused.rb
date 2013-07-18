@@ -9,7 +9,7 @@ Default searched files are `jpg`, `png`, `jpeg`, `tiff`, `tif`, `gif`, `bmp`, `B
 
 It provides easily changeable exclusions, defaults being `vendor`, `default`, `icon`:
 
-* Excluded folders will not be searched for images to be removed, but they **will** be searched for occurrences of images. Best example: exclude external classes that still need to be searched for, since they might be customized for your own needs and we don't want to delete needed files.
+* Excluded folders will not be searched for images to be removed, but files inside them **will** be searched for occurrences of images. Best example: exclude external classes that still need to be searched for, since they might be customized with your own graphics and we don't want to delete needed files.
 * Excluded images will not be searched for.  
 
 You will be displayed a list of unused file names, then a list of to-be deleted files, with full paths. You can choose to stop here, delete them all, or delete them one by one.
