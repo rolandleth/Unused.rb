@@ -45,14 +45,14 @@ end
 # NOTE: It WILL search within excluded folders for YOUR images
 # since there's the chance one has modified external libraries with his own images
 files.each do |file|
-	# puts file
+	puts file
 	images.each do |image|
 		unless File.directory?(file)
 			# Just the start of the string, because you can define the image as imageNamed: @"image"
 			# But also as imageNamed: @"image.png", or even imageNamed: @"image@2x.png". 
 			# We want to cover everything.
-			if File.read(file) =~ /@\"#{image}/
-				# puts image
+			if File.read(file).downcase =~ /@\"#{image.downcase}/
+				puts image
 				images.delete(image)
 			end
 		end
