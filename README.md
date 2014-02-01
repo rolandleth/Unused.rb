@@ -7,7 +7,7 @@ It searches `m`, `mm`, `cpp`, `c`, `h` and `html` files by default. Easily chang
 
 Default searched files are `jpg`, `png`, `jpeg`, `tiff`, `tif`, `gif`, `bmp`, `BMPf`, `ico`, `cur`, `xbm`, since these are the ones supported by the iOS SDK. Easily changeable.
 
-It provides easily changeable exclusions, the default being:
+It provides easily changeable exclusions, the defaults being:
 ```ruby
 excluded_folders = ['vendor', '.appiconset', '.launchimage']
 excluded_images = []
