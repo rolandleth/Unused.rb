@@ -26,7 +26,7 @@ It removes references of the deleted files from your `.pbxproj` file. `.imageset
 
 I tested it and re-tested it and there's a one-by-one mode, please don't go delete everything if you're not 100% sure of what you're doing.
 
-That's about it. Please feel free to improve or [contact me](https://twitter.com/rolandleth) for any questions; I'd be more than happy to hear from you.
+That's about it. Please feel free to improve or [contact me](mailto:roland@rolandleth.com) for any questions; I'd be more than happy to hear from you.
   
 ## License
 Licensed under MIT.
